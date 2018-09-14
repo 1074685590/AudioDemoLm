@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/background_dark"
+             android:padding="16dp">
+
+    <TextView
+        android:id="@+id/mTvLog"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:text="123"/>
+
+    <TextView
+        android:id="@+id/mTvPressToSay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="按住说话"
+        android:textColor="#333333"
+        android:textSize="30sp"
+    />
+    <Button android:layout_width="wrap_content"
+            android:text="播放/暂停"
+            android:onClick="onOroff"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>
